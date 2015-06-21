@@ -45,7 +45,11 @@ namespace Classification
                 kernel = new Linear();
             if (algorithm == null)
                 algorithm = (SVM, inputData, outputData, i, j) =>
-                    new SequentialMinimalOptimization(SVM, inputData, outputData);
+                    new SequentialMinimalOptimization(SVM, inputData, outputData)
+                    {
+                        // Avoid OutOfMemory exception.
+                        CacheSize = 1000
+                    };
 
             // Create a new SVM classifier.
             SVMachine = new MulticlassSupportVectorMachine(
