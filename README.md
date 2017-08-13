@@ -12,3 +12,9 @@ The following datasets were used to test the application:
 * [Iris dataset](http://archive.ics.uci.edu/ml/datasets/Iris)
 * [Wine dataset](http://archive.ics.uci.edu/ml/datasets/Wine)
 * [Skin Segmentation Data Set](http://archive.ics.uci.edu/ml/datasets/Skin+Segmentation)
+
+
+
+## License
+
+You are free to use this code under the [MIT License](https://github.com/ClaudiuGeorgiu/Classification/blob/master/LICENSE).
