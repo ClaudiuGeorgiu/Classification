@@ -2,7 +2,7 @@
 
 > Data classification using Accord.NET framework.
 
-[![Codacy](https://api.codacy.com/project/badge/Grade/55d53612d8e04bac97922b4d5823d7dd)](https://www.codacy.com/app/ClaudiuGeorgiu/Classification)
+[![Codacy](https://app.codacy.com/project/badge/Grade/55d53612d8e04bac97922b4d5823d7dd)](https://www.codacy.com/gh/ClaudiuGeorgiu/Classification)
 
 This is a simple `C#` application developed in Visual Studio (using WinForms GUI) to explore some of the functionalities of the [Accord.NET framework](http://accord-framework.net/) regarding data classification. You can import some data in `.csv` format and compare the performances of different classification algorithms.
 
